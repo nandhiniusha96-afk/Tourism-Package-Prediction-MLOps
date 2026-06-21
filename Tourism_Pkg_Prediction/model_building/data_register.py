@@ -19,7 +19,7 @@ except RepositoryNotFoundError:
     print(f"Space '{repo_id}' created.")
 
 api.upload_folder(
-    folder_path="Tourism_Pkg_Prediction/data",
+    folder_path="AIML_MLOPS_TourismPkgPurchasePrediction/data",
     repo_id=repo_id,
     repo_type=repo_type,
 )
